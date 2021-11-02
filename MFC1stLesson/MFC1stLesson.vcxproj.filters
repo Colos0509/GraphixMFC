@@ -13,48 +13,69 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\MFC">
+      <UniqueIdentifier>{655200d9-c2b4-4b3c-bce4-1758d56b50e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MFC">
+      <UniqueIdentifier>{75a20fcb-cdbc-46f0-956c-54a87131a66d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core">
+      <UniqueIdentifier>{c592d424-04a7-4089-afc5-1b857d707bda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core">
+      <UniqueIdentifier>{81464eb0-a4be-4d8b-9dfb-21b4e5d64a46}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="MFC1stLesson.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files\MFC</Filter>
     </ClInclude>
     <ClInclude Include="framework.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="targetver.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\MFC</Filter>
     </ClInclude>
     <ClInclude Include="MainFrm.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="MFC1stLesson.h">
+      <Filter>Header Files\MFC</Filter>
     </ClInclude>
     <ClInclude Include="MFC1stLessonDoc.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\MFC</Filter>
     </ClInclude>
     <ClInclude Include="MFC1stLessonView.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Resource.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\MFC</Filter>
     </ClInclude>
     <ClInclude Include="pch.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files\MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="Screen.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="wglext.h">
+      <Filter>Header Files\MFC</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="MFC1stLesson.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="pch.cpp">
+      <Filter>Source Files\MFC</Filter>
     </ClCompile>
     <ClCompile Include="MainFrm.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\MFC</Filter>
+    </ClCompile>
+    <ClCompile Include="MFC1stLesson.cpp">
+      <Filter>Source Files\MFC</Filter>
     </ClCompile>
     <ClCompile Include="MFC1stLessonDoc.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\MFC</Filter>
     </ClCompile>
     <ClCompile Include="MFC1stLessonView.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\MFC</Filter>
     </ClCompile>
-    <ClCompile Include="pch.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="Screen.cpp">
+      <Filter>Source Files\Core</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
